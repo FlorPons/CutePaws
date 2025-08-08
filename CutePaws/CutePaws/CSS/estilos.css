@@ -4,7 +4,7 @@
     --naranja: #F48B48;
     --rosado: rgb(244,171,186);
     --marron: #665931;
-  }
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -146,6 +146,7 @@ footer a{
 }
 .seccion{
     padding: 1% 1% 1% 0%;
+    background-color:ghostwhite;
 }
 .petImagenes{
     margin-top: 20px;
@@ -205,6 +206,20 @@ input[type=submit]:hover {
     color: var(--naranja);
 
 }
+
+footer a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #333;
+}
+
+footer img {
+    vertical-align: middle;
+}
+
+
 @media only screen and (max-width: 992px) {
     h1 {
         font-size: 25px;
