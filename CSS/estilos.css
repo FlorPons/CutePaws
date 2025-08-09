@@ -118,7 +118,6 @@ footer{
     justify-content: space-between;
     height: auto;
     padding: 5px 10%;
-    gap: 10px;
 }
 footer a{
     align-items: center;
@@ -264,15 +263,21 @@ footer img {
     footer {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: auto;
     padding: 20px 5%;
     gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
     }
 
     footer a {
     font-size: 14px;
     justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
+    word-break: break-word;
     }
 
     .fa {
