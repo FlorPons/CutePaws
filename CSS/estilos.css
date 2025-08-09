@@ -254,9 +254,29 @@ footer img {
     }
     .col-25, .col-75, input[type=submit] {
         width: 100%;
-      }
+    }
     input[type=submit] {
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
+    footer {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px 5%;
+    gap: 10px;
+    }
+
+    footer a {
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+    }
+
+    .fa {
+    font-size: 24px;
+    width: auto;
+    }
+
 }
