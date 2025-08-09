@@ -116,8 +116,9 @@ footer{
     background-color: var(--naranja);
     display: flex;
     justify-content: space-between;
-    height: 150px;
+    height: auto;
     padding: 5px 10%;
+    gap: 10px;
 }
 footer a{
     align-items: center;
